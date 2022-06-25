@@ -1,6 +1,6 @@
 # playground-docker-traefik-authelia
 
-Playground to test Authelia inegration with Traefik in docker.
+Playground to test Authelia integration with Traefik in docker.
 
 ## Usage
 
