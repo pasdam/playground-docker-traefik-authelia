@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sso:
+    image: authelia/authelia:4.35.6
+    volumes:
+      - ./authelia:/config
+    expose:
+      - 9091
+    restart: unless-stopped
+    healthcheck:
+      disable: true
